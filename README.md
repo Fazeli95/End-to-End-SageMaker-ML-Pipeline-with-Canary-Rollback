@@ -45,28 +45,32 @@ To get started with the project, follow these steps:
 2. **Install the required dependencies:**
    pip install -r requirements.txt
 
-Dataset: The dataset used in this project is the SBA-Loans-Case-Data-Set, which can be accessed from OpenML. The data will be automatically downloaded when you run the notebook.
+## Dataset
+The dataset used in this project is the SBA-Loans-Case-Data-Set, which can be accessed from [OpenML](https://api.openml.org/d/43539). The data will be automatically downloaded when you run the notebook.
 
-**Usage**
-Running the Original Notebook:
-  Open Original_Notebook.ipynb to view the full workflow, including all outputs.
-  This notebook contains every step from data preprocessing to model deployment, including the outputs at each stage.
-  
-**Running the Structured Project:**
-  Navigate to the structured_project/ folder.
-  Open Structured_Notebook.ipynb to view the clean, modular version of the project.
-  Alternatively, run the individual scripts in the src/ folder for specific tasks such as data preprocessing, model training, or deployment.
-**Canary Rollback and Shadow Testing**
-*Canary Rollback:*
-  Description: Gradual deployment of the new model version with a rollback mechanism in case of failures.
-  Implementation: In the event of errors during deployment, the traffic is rolled back to the previous stable version to ensure reliability.
-*Shadow Testing:*
-  Description: The new model version is deployed in parallel with the production model, receiving the same traffic without affecting users.
-  Purpose: This allows for validation of the new model’s performance in a production-like environment before full deployment.
-  
-**Results**
-The model had reliable performance metrics during training and validation phases.
-Canary deployment and shadow testing ensured a robust and error-free transition to production.
+## Usage
 
-**License**
+### Running the Original Notebook:
+- Open `Original_Notebook.ipynb` to view the full workflow, including all outputs.
+- This notebook contains every step from data preprocessing to model deployment, including the outputs at each stage.
+
+### Running the Structured Project:
+- Navigate to the `structured_project/` folder.
+- Open `Structured_Notebook.ipynb` to view the clean, modular version of the project.
+- Alternatively, run the individual scripts in the `src/` folder for specific tasks such as data preprocessing, model training, or deployment.
+
+## Canary Rollback and Shadow Testing
+
+### Canary Rollback:
+- **Description**: Gradual deployment of the new model version with a rollback mechanism in case of failures.
+- **Implementation**: In the event of errors during deployment, the traffic is rolled back to the previous stable version to ensure reliability.
+
+### Shadow Testing:
+- **Description**: The new model version is deployed in parallel with the production model, receiving the same traffic without affecting users.
+- **Purpose**: This allows for validation of the new model’s performance in a production-like environment before full deployment.
+
+## Results
+The model had reliable performance metrics during training and validation phases. Canary deployment and shadow testing ensured a robust and error-free transition to production.
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
