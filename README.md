@@ -17,19 +17,21 @@ The project is organized into two main sections:
 2. **Structured Project**: For better readability and modularity, the project has been refactored into a structured format with separate scripts and a clean notebook. This version is suitable for those who prefer a more organized and professional presentation of the code.
 
 ### Repository Contents:
+
 End-to-End-SageMaker-ML-Pipeline-with-Canary-Rollback/
-│
-├── README.md                                  # Project overview, setup instructions, and more
-├── requirements.txt                           # List of dependencies to run the project
-├── Original_Notebook.ipynb                    # Your original notebook with all outputs preserved
-└── structured_project/                        # Folder containing the structured version of the project
-    ├── Structured_Notebook.ipynb              # The structured notebook without outputs (code only)
-    ├── src/
-    │   ├── data_preprocessing.py              # Script for data preprocessing
-    │   ├── model_training.py                  # Script for model training
-    │   ├── hyperparameter_tuning.py           # Script for hyperparameter tuning
-    │   ├── deployment.py                      # Script for deploying the model
-    │   └── inference.py                       # Script for performing inference using the deployed model
+
+    │
+    ├── README.md                                  # Project overview, setup instructions, and more
+    ├── requirements.txt                           # List of dependencies to run the project
+    ├── Original_Notebook.ipynb                    # Your original notebook with all outputs preserved
+    └── structured_project/                        # Folder containing the structured version of the project
+        ├── Structured_Notebook.ipynb              # The structured notebook without outputs (code only)
+        ├── src/
+        │   ├── data_preprocessing.py              # Script for data preprocessing
+        │   ├── model_training.py                  # Script for model training
+        │   ├── hyperparameter_tuning.py           # Script for hyperparameter tuning
+        │   ├── deployment.py                      # Script for deploying the model
+        │   └── inference.py                       # Script for performing inference using the deployed model
 
 
 ## Setup and Installation
