@@ -23,7 +23,7 @@ End-to-End-SageMaker-ML-Pipeline-with-Canary-Rollback/
     │
     ├── README.md                                  # Project overview, setup instructions, and more
     ├── requirements.txt                           # List of dependencies to run the project
-    ├── Original_Notebook.ipynb                    # Your original notebook with all outputs preserved
+    ├── Full_Notebook.ipynb                    # Your original notebook with all outputs preserved
     └── structured_project/                        # Folder containing the structured version of the project
         ├── Structured_Notebook.ipynb              # The structured notebook without outputs (code only)
         ├── src/
