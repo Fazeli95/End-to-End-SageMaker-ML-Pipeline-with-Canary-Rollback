@@ -32,7 +32,6 @@ End-to-End-SageMaker-ML-Pipeline-with-Canary-Rollback/
     │   └── inference.py                       # Script for performing inference using the deployed model
 
 
-
 ## Setup and Installation
 
 To get started with the project, follow these steps:
