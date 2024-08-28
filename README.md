@@ -1,5 +1,12 @@
-# End-to-End-SageMaker-ML-Pipeline-with-Canary-Rollback
-End to End SageMaker ML Pipeline with Canary Rollback
+# End-to-End SageMaker-ML-Pipeline-with-Canary-Rollback
+
+**Author:** Pooya Fazeli  
+**Email:** [pooya.fazeli@gmail.com](mailto:pooya.fazeli@gmail.com)  
+**GitHub:** [github.com/fazeli95](https://github.com/fazeli95)
+
+This project and its contents are the intellectual property of Pooya Fazeli. Unauthorized use, distribution, or reproduction of this work is prohibited. Please refer to the MIT License for permitted uses and conditions.
+
+---
 
 
 ## Project Overview
