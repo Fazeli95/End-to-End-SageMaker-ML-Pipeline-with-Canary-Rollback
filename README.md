@@ -10,7 +10,7 @@ This project and its contents are the intellectual property of Pooya Fazeli. Una
 
 
 ## Project Overview
-This project demonstrates an end-to-end machine learning pipeline using Amazon SageMaker, including model training, hyperparameter tuning, deployment, and advanced deployment strategies such as canary rollback and shadow testing. The goal of this project is to ensure a robust and reliable model deployment process by validating the model in a production-like environment before fully deploying it.
+This project demonstrates an end-to-end machine learning pipeline using Amazon SageMaker, including model training, hyperparameter tuning, deployment, and advanced deployment strategies such as canary rollback and shadow testing. The goal of this project is to ensure a robust and reliable model deployment process by validating the model in a production-like environment before fully deploying it. 
 
 ### Key Features:
 - **End-to-End ML Pipeline**: From data preprocessing to model deployment, the entire workflow is covered.
